@@ -319,7 +319,7 @@ function Home(){
       </div>
     </div>
 
-    <div className="b-example-divider"></div>
+    <div className="b-example-divider  "></div>
 
     <div className="container px-4 py-5">
       <h2 className="pb-2 border-bottom">Traga seu negócio para a revolução digital</h2>
