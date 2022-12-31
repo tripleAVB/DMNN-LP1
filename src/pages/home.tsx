@@ -40,7 +40,7 @@ function Home(){
 
         <body className="d-flex h-100 text-center text-bg-dark">
     
-<div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style={{backgroundColor: "#002EA2"}}>
   <header className="mb-auto">
     <div>
       
@@ -48,7 +48,7 @@ function Home(){
     </div>
   </header>
 
-  <main className="px-3" style={{ height: "300px", marginTop: "250px", verticalAlign: "center" }}>
+  <main className="px-3" style={{  height: "300px", marginTop: "250px", verticalAlign: "center" }}>
     <h1>Suba agora para o próximo nível.</h1>
     <p className="lead">Você pode ter os resultados que você precisa através da internet. Nós estamos entre os que descobriram como. Queremos te ensinar tudo sobre. Não existe mais nenhum impedimento entre você e o seu próximo nível. E aí, vamos?</p>
     <p className="lead">
@@ -128,8 +128,8 @@ function Home(){
       <h2 className="pb-2 border-bottom">Entenda porque somos a melhor opção.</h2>
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div className="feature col">
-          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-            <svg className="bi" width="1em" height="1em"><use href="#collection"/></svg>
+          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3" style={{ padding: "10px", borderRadius: "10px"}}>
+            <svg className="bi" width="1em" height="1em" ><use href="#collection"/></svg>
           </div>
           <h3 className="fs-2">Tecnologia</h3>
           <p>Se o seu negócio hoje não utiiza ativamente de tecnologia, ele não exixtirá em pouco tempo. Nós dominamos este setor. Quer surfar essa onda? Conte conosco.</p>
@@ -139,7 +139,7 @@ function Home(){
           </a>
         </div>
         <div className="feature col">
-          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3" style={{ padding: "10px", borderRadius: "10px"}}>
             <svg className="bi" width="1em" height="1em"><use href="#people-circle"/></svg>
           </div>
           <h3 className="fs-2">Pessoas</h3>
@@ -150,7 +150,7 @@ function Home(){
           </a>
         </div>
         <div className="feature col">
-          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3" style={{ padding: "10px", borderRadius: "10px", }}>
             <svg className="bi" width="1em" height="1em"><use href="#toggles2"/></svg>
           </div>
           <h3 className="fs-2">Processos</h3>
@@ -214,8 +214,8 @@ function Home(){
 
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div className="col">
-          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" /*style="background-image: url('unsplash-photo-1.jpg');"*/>
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style={{ backgroundColor: "#2E005E" }}>
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Landing Pages</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -236,7 +236,7 @@ function Home(){
 
         <div className="col">
           <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" /* style="background-image: url('unsplash-photo-2.jpg');"  */>
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style={{ backgroundColor: "#2E005E" }}>
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Web Apps</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -256,8 +256,8 @@ function Home(){
         </div>
 
         <div className="col">
-          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" /* style="background-image: url('unsplash-photo-3.jpg');" */>
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style={{ backgroundColor: "#2E005E" }}>
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mobile Apps</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -281,63 +281,39 @@ function Home(){
     <div className="b-example-divider"></div>
 
     <div className="container px-4 py-5" id="icon-grid">
-      <h2 className="pb-2 border-bottom">Icon grid</h2>
+      <h2 className="pb-2 border-bottom">Como vamos te ajudar?</h2>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        <div className="col d-flex align-items-start">
-          <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#bootstrap"/></svg>
-          <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
-          </div>
-        </div>
+      
         <div className="col d-flex align-items-start">
           <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#cpu-fill"/></svg>
           <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h3 className="fw-bold mb-0 fs-4">Simplificar</h3>
+            <p>Você já ouviu falar de SEO? Apps? Microserviços? Não precisa se preocupar com esses nomes difíceis. A gente executa a parte técnica por você</p>
           </div>
         </div>
         <div className="col d-flex align-items-start">
           <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#calendar3"/></svg>
           <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h3 className="fw-bold mb-0 fs-4">Esclarecer</h3>
+            <p>Agende uma chamada de video conosco. Vamos explicar tudo sobre como aumentar a qualidade do seu negócio em pessoas e processos através do marketing digital.</p>
           </div>
         </div>
-        <div className="col d-flex align-items-start">
-          <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#home"/></svg>
-          <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
-          </div>
-        </div>
+        
         <div className="col d-flex align-items-start">
           <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#speedometer2"/></svg>
           <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h3 className="fw-bold mb-0 fs-4">Mensurar</h3>
+            <p>O que você não mede, você não controla. Nós vamos te ajudar a retomar o controle do seu negócio.</p>
           </div>
         </div>
-        <div className="col d-flex align-items-start">
-          <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#toggles2"/></svg>
-          <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
-          </div>
-        </div>
-        <div className="col d-flex align-items-start">
-          <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#geo-fill"/></svg>
-          <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
-          </div>
-        </div>
+        
+        
         <div className="col d-flex align-items-start">
           <svg className="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use href="#tools"/></svg>
           <div>
-            <h3 className="fw-bold mb-0 fs-4">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h3 className="fw-bold mb-0 fs-4">Ferramentas</h3>
+            <p>Nós iremos</p>
           </div>
         </div>
       </div>
@@ -357,7 +333,7 @@ function Home(){
         <div className="row row-cols-1 row-cols-sm-2 g-4">
           <div className="d-flex flex-column gap-2">
             <div
-              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient fs-4 rounded-3" style={{ padding: "10px",  }} >
               <svg className="bi" width="1em" height="1em">
                 <use href="#collection" />
               </svg>
@@ -368,7 +344,7 @@ function Home(){
 
           <div className="d-flex flex-column gap-2">
             <div
-              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient  fs-4 rounded-3" style={{ padding: "10px", }}>
               <svg className="bi" width="1em" height="1em">
                 <use href="#gear-fill" />
               </svg>
@@ -379,7 +355,7 @@ function Home(){
 
           <div className="d-flex flex-column gap-2">
             <div
-              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient fs-4 rounded-3" style={{ padding: "10px ", }}>
               <svg className="bi" width="1em" height="1em">
                 <use href="#speedometer" />
               </svg>
@@ -390,8 +366,8 @@ function Home(){
 
           <div className="d-flex flex-column gap-2">
             <div
-              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg className="bi" width="1em" height="1em">
+              className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient fs-4 rounded-3" style={{ padding: "10px"  }}>
+              <svg className="bi" width="1em" height="1em" >
                 <use href="#table" />
               </svg>
             </div>
